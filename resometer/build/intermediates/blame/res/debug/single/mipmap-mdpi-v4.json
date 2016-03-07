@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mandar/dev/android/Start/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/mandar/dev/android/Start/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Resometer/resometer/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/mandar/dev/android/Resometer/resometer/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Resometer2/resometer/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/mandar/dev/android/Resometer2/resometer/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Start/resometer/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/mandar/dev/android/Start/resometer/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

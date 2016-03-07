@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mandar/dev/android/Resometer2/resometer/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/mandar/dev/android/Resometer2/resometer/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Resometer/resometer/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/mandar/dev/android/Resometer/resometer/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Start/resometer/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/mandar/dev/android/Start/resometer/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Start/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/mandar/dev/android/Start/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout-sw600dp/design_layout_snackbar.xml"
+    }
+]

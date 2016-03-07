@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/mandar/dev/android/Start/resometer/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mandar/dev/android/Start/resometer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Resometer/resometer/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mandar/dev/android/Resometer/resometer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Resometer2/resometer/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mandar/dev/android/Resometer2/resometer/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/mandar/dev/android/Start/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mandar/dev/android/Start/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
+    }
+]

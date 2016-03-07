@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kida.android.start"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.kida.android.resometer.CalendarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kida.android.resometer.TaskSummaryActivity"
+            android:label="@string/title_activity_task_summary"
+            android:parentActivityName="com.kida.android.resometer.CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kida.android.resometer.CalendarActivity" />
+        </activity>
+        <activity
+            android:name="com.kida.android.resometer.AddTaskActivity"
+            android:label="@string/title_activity_new_task"
+            android:parentActivityName="com.kida.android.resometer.TaskSummaryActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kida.android.resometer.TaskSummaryActivity" />
+        </activity>
+        <activity
+            android:name="com.kida.android.resometer.TaskManagerActivity"
+            android:label="@string/title_activity_task_manager"
+            android:parentActivityName="com.kida.android.resometer.CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kida.android.resometer.CalendarActivity" />
+        </activity>
+    </application>
+
+</manifest>
