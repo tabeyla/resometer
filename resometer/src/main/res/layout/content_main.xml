@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The first child in the layout is for the main Activity UI-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@color/ochre"
+    android:orientation="vertical"
+    tools:context="com.kida.android.resometer.CalendarActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/ochre_scheme_dark"
+        >
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/ochre_scheme_complement_lightest"
+            android:textSize="30dp"
+
+
+            />
+    </Toolbar>
+
+
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:dateTextAppearance="@android:style/TextAppearance.Large"
+        android:clickable="true"
+
+        />
+
+</LinearLayout>
